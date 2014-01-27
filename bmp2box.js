@@ -10,7 +10,7 @@ var greedy = require("greedy-mesher")({
   merge: function(a, b) {
     return !a === !b
   },
-  append: function(lo_x, lo_y, hi_x, hi_y, val, array, result) {
+  append: function(lo_x, lo_y, hi_x, hi_y, val, result) {
     result.push([[lo_x, lo_y], [hi_x, hi_y]])
   }
 })
@@ -21,7 +21,5 @@ function getBoxes(image, useGreedy) {
     greedy(image, result)
     return result
   }
-  var c = contour(image)
-  console.log(c)
-  return rectangleDecomposition(c)
+  return rectangleDecomposition(contour(image, true))
 }
