@@ -1,0 +1,40 @@
+{
+  "name": "bitmap-to-boxes",
+  "version": "0.0.0",
+  "description": "Partitions a 2D binary image into rectangles",
+  "main": "bmp2box.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "contour-2d": "~0.0.0",
+    "greedy-mesher": "~1.0.1",
+    "rectangle-decomposition": "~0.0.0"
+  },
+  "devDependencies": {
+    "ndarray-pack": "~1.0.1",
+    "tap": "~0.4.8",
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/bitmap-to-boxes.git"
+  },
+  "keywords": [
+    "bitmap",
+    "box",
+    "rectangle",
+    "decomposition",
+    "partition",
+    "minimal"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/bitmap-to-boxes/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/bitmap-to-boxes"
+}

@@ -18,7 +18,5 @@ tape("bitmap-to-boxes", function(t) {
   console.log(bmp2box(img))
   console.log(bmp2box(img, true))
 
-
-
   t.end()
 })
