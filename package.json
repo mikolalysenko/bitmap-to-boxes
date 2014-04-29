@@ -1,15 +1,15 @@
 {
   "name": "bitmap-to-boxes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Partitions a 2D binary image into rectangles",
   "main": "bmp2box.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "contour-2d": "~0.0.0",
-    "greedy-mesher": "~1.0.1",
-    "rectangle-decomposition": "~0.0.1"
+    "contour-2d": "^1.0.0",
+    "greedy-mesher": "^1.0.1",
+    "rectangle-decomposition": "^1.0.0"
   },
   "devDependencies": {
     "ndarray-pack": "~1.0.1",
